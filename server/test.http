@@ -1,0 +1,13 @@
+POST http://127.0.0.1:3000/notify
+Content-Type: application/json
+
+{
+    "message": "Hello, welcome to the weather app!"
+}
+###
+POST https://weather-mansour.herokuapp.com/notify
+Content-Type: application/json
+
+{
+    "message": "Hello, welcome to the weather app!"
+}
